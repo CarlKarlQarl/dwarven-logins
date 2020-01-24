@@ -2,6 +2,7 @@ require "jwt"
 
 class AuthenticationController < ApplicationController
     def login
+        byebug
         username = params[:user][:username]
         password = params[:user][:password]
 
